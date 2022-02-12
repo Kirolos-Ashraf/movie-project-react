@@ -1,0 +1,64 @@
+.floatt {
+  float: left;
+}
+.card {
+  width: 18rem !important;
+  height: 33rem;
+  text-align: center;
+}
+.fontlink {
+  font-size: 20px;
+  color: green;
+  font-weight: bolder;
+  padding: 10px;
+}
+.cardTEXT p {
+  font-size: 18px;
+}
+.Favorite:hover {
+  background: white;
+}
+/* .Container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 48rem;
+    width: 28.2rem;
+    padding: 0.8rem;
+    border-radius: 12px;
+    background-color: var(--black-65);
+    backdrop-filter: blur(40px);
+  } */
+/* .Container img {
+    height: 25rem;
+    width: 20rem;
+    border-radius: 8px;
+  }
+  .Container div {
+    margin: 0.8rem 0;
+  } */
+
+.Favorite {
+  position: absolute;
+  top: 1rem;
+  left: 1.5rem;
+  right: 1.5rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  height: 2.5rem;
+  width: 2.5rem;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.267);
+  backdrop-filter: blur(80px);
+  cursor: pointer;
+}
+
+Link {
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  letter-spacing: 2%;
+  font-weight: 500;
+  color: var(--gray-50);
+}
